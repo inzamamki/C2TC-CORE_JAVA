@@ -6,6 +6,7 @@ public class DuplicateCharactersInAstring {
 
 	public static void main(String[] args) {
 		String original;
+		
 		int count ;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter The String  ");
