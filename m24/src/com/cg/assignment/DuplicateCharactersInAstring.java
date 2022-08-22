@@ -1,4 +1,4 @@
-package NumbersProblem;
+package com.cg.assignment;
 
 import java.util.Scanner;
 
