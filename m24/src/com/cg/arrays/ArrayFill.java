@@ -1,4 +1,4 @@
-package com.cg.classroom;
+package com.cg.arrays;
 import java.util.Arrays;
   
 public class ArrayFill

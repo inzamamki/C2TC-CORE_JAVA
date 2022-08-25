@@ -1,4 +1,4 @@
-package com.cg.classroom;
+package com.cg.arrays;
 
 public class TwoDimensional {
 

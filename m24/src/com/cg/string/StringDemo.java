@@ -1,4 +1,4 @@
-package com.cg.classroom;
+package com.cg.string;
 
 public class StringDemo {
 
