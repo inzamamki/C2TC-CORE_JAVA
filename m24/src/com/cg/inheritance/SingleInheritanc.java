@@ -6,7 +6,7 @@ package com.cg.inheritance;
 		System.out.println("3%");
 		} 
 	}
-	class HomeLoan extends Loan{
+	class BusinessLoan2 extends Loan{
 		void interestHL() {
 			System.out.println("7%");
 			}
@@ -15,7 +15,7 @@ package com.cg.inheritance;
 	public class SingleInheritanc {
 
 		public static void main(String[] args) {
-			HomeLoan i=new HomeLoan();  
+			BusinessLoan2 i=new BusinessLoan2();  
 			i.interestHL();  
 			i.interest();  
 		}
