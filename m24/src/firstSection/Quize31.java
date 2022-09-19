@@ -1,15 +1,18 @@
 package firstSection;
 
-class A{
-private void printName() {
-System.out.println("Value-A");
-class B extends A{
-private void printName() {
+class Base {
+final public void show() {
+System.out.println("Base::show() called");
 }
 }
-class Quize31{
-public void main(String[] args) {
-bb= new B();
-b.printName();
-System.out.println("Name-B");
-}}}}
+class Derived extends Base {
+public void show() {
+System.out.println("Derived::show() called");
+}
+}
+class Quize31 {
+public static void main(String[] args) {
+Base b = new Derived();
+b.show();
+}
+}
