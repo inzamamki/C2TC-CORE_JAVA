@@ -1,7 +1,7 @@
 package com.cg.task1;
-
+import org.junit.jupiter.api.*;
 public class Task2 {
-
+	@Test
 	public static void main(String[] args) {
 		int input_integer = 5;
 		System.out.println("square of a number   "+input_integer*input_integer);
@@ -16,9 +16,7 @@ public class Task2 {
 	         {
 	            ++Count;
 	         }
-		      }
-
-	   
+	      }
 	      System.out.println("The frequency of " + input_character + " is " + Count );
 	
 }
