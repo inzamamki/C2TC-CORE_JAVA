@@ -1,5 +1,6 @@
+package com.cg.comparableandcamparator;
+
 //Demo on Comparable interface
-package com.tns.sort;
 import java.util.*;
 
 class Emp implements Comparable<Emp> {

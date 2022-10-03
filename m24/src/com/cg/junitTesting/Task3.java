@@ -1,4 +1,4 @@
-package com.cg.task1;
+package com.cg.junitTesting;
 
 public class Task3 {
 	 public int SquareNumbers(int input_integer ) 

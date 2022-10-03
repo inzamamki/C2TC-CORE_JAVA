@@ -1,4 +1,4 @@
-package com.cg.task1;
+package com.cg.junitTesting;
 import org.junit.jupiter.api.*;
 public class Task2 {
 	@Test
