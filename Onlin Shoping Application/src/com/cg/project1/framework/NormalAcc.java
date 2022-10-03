@@ -3,7 +3,7 @@ package com.cg.project1.framework;
 
 public abstract class NormalAcc extends ShopAcc {
 //	deliveryCharges
-	private final float deliveryCharges = 50;
+	private final float deliveryCharges = 45;
 
 	public float getDeliveryCharges() {
 		return deliveryCharges;
@@ -25,18 +25,9 @@ public abstract class NormalAcc extends ShopAcc {
 				+ super.toString();
 	}
 
-//*** lazy initialization remaining ***
-//
 //	// Default Constructor - as per PDF
 //	public NormalAcc(int AccNo, String accNm, float charges, float deliveryCharges) {
 //		super(AccNo, accNm, charges);
-//	}
-
-////	Override
-//	public void bookProduct(float charges) {
-////		super.bookProduct(super.getCharges());
-//		System.out.println(
-//				"Product booked and charges are: " + charges + " with Delivery charges is: " + deliveryCharges);
 //	}
 
 }

@@ -33,10 +33,4 @@ public abstract class PrimeAcc extends ShopAcc {
 				+ super.toString();
 	}
 
-////	Override
-//	public void bookProduct(float charges) {
-//		super.bookProduct(super.getCharges());
-////		System.out.println("with Delivery charges is: "+charges);
-//	}
-
 }
