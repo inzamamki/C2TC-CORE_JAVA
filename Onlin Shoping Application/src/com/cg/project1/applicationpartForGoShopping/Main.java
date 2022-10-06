@@ -160,7 +160,6 @@ public class Main {
 
 			default:// Invalid input
 				System.out.println("Invalid input...");
-//				f1 = true;
 				System.out.println("Do you have an account?*(Please Enter 1/2)");
 				System.out.println("1. Yes\n2. No");
 				choice = sc.nextInt();
