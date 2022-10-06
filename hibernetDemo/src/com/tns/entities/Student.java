@@ -11,6 +11,7 @@ private static final long serialVersionUID = 1L;
 @Id
 private int studentId;
 private String name;
+
 public int getStudentId() {
 return studentId;
 }
